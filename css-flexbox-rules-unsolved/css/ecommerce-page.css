@@ -62,6 +62,8 @@ section {
   background: #1f1f27;
   padding: 10px 20px;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .search-bar input {
@@ -131,6 +133,7 @@ section {
 .view-options {
   display: flex;
     gap: 20px;
+    
 }
 
 i.fa-th-list {
@@ -150,6 +153,9 @@ i.fa-th-list {
   height: 40px;
   border: 1px solid #8d8ba5;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .products {
@@ -232,6 +238,7 @@ i.fa-th-list {
     align-items: center;
     gap: 10px;
     margin-top: 20px;
+    height: 40%;
 }
 
 .grid .product-action {
